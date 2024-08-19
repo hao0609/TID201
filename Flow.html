@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flow</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: #000000;
+            color: white;
+            
+        }
+        .left{
+            float:left;
+
+            /* float 為 "文繞圖" 的概念 ，可以讓物件靠最左或靠最右 */
+        }
+        .right{
+            float: right;
+        }
+        .flowclear{
+             /* float clear 會取消文繞圖高度為 0 的問題 */
+            clear: both;
+            width: 500px;
+            height: 700px;
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="box left">A</div>
+        <div class="box right">B</div>
+        <div class="flowclear"></div>
+
+</body>
+</html>
