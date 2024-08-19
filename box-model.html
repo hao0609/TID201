@@ -11,10 +11,20 @@
             height: 100px;
             background-color: #0cabea;
             color: rgb(255, 255, 255);
-            padding: 10px 20px 10px 20px;
+            padding: 10px 20px;
             border: 20px solid #00f1b5;
-            margin: 10px 20px 10px 20px;    
+            margin: 10px 20px ;    
             /* padding / margin 參數： 上 右 下 左 */
+            /* padding / margin 參數： 上/下 左/右  ==> 也可以這樣寫 */
+
+
+            /* box-sizing: content-box = 預設值，物件寬/高度會隨著padding 或 border 影響寬高 */
+            /* box-sizing: content-box; */
+
+            /* box-sizing: border-box = 物件寬/高度綁定，不會隨著padding 或 border 影響寬高 */
+            box-sizing: border-box; 
+
+
         }
     </style>
 </head>
