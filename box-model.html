@@ -46,6 +46,26 @@
             background-color: #9000ff;
             margin: auto;
         }
+
+        .fatherbox{
+
+            width: 100%;
+            height: 500px;
+            background-color: #eeff00;
+            /* 兩種會推父層內部子層物件margin top的方法 */
+            /* 設 padding  */
+            /* border: 1px solid transparent; */
+            /* overflow: hidden; */
+            
+        }
+        .childbox{
+
+            margin-top: 100px;
+            width: 100px;
+            height: 50px;
+            background-color: #00ff62;
+          
+        }
     </style>
 </head>
 <body>
@@ -58,6 +78,15 @@
          <div class="innerbox">
 
          </div>
+    </div>
+
+
+    margin 迷思
+
+    <div class="fatherbox">
+
+        <div class="childbox"></div>
+        <div class="childbox"></div>
     </div>
     
 </body>
