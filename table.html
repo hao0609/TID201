@@ -7,7 +7,15 @@
     <style>
         table{
             border-collapse:collapse;
-            background: rgb(246, 246, 246);
+            letter-spacing: 1px;
+            font-size: 20px;
+           
+        }
+        tr{
+            background-color: rgb(247, 230, 208);
+        }
+        td{
+            background-color: #d9e5fe;
         }
 
     </style>
@@ -15,8 +23,8 @@
 <body>
     <table border="1" >
         <tr>
-            <td>第一列第一欄</td>
-            <td>第一列第二欄 </td>
+            <th>第一列第一欄</th>
+            <th>第一列第二欄 </th>
         </tr>
         <tr>
             <td>第二列第一欄</td>
@@ -24,42 +32,71 @@
         </tr>
     </table>
 
+    <br><br>
 
-    <table>
+    <table border="1" >
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+          </tr>
+    </table>
+
+
+    <br>
+
+    <h2>合併儲存格</h2>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <!-- <td>1</td> -->
+            <td colspan="2">1 & 2</td>
+            <!-- <td>2</td> -->
+            <!-- <td>3</td> -->
+
+            <td rowspan="3">3 & 6 & 9</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>4</td>
+            <td>5</td>
+            <!-- <td>6</td> -->
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7</td>
+            <td>8</td>
+            <!-- <td>9</td> -->
         </tr>
     </table>
 </body>
