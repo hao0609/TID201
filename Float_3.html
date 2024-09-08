@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body ,p, h2{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            box-sizing: border-box;
+        }
+        .outsidebox{
+            width: 1170px;
+            height: auto;
+            /* border: 1px solid black; */
+            margin: auto;
+            position: relative;
+            z-index: 100;
+            top: 80px;
+            bottom: 80px;
+
+        }
+        .bluebox{
+            width: 570px;
+            height: 100%;
+            background-color:#0076FF;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+
+        }
+        .img{
+            width: 570px;
+            height: 528px;
+            background-color:#DEDEDE;
+            border-radius: 7px;
+            float: left;
+        }
+        .rightbox{
+            float: right;
+            width: 470px;
+            position: relative;
+            top: 93px;
+            bottom: 93px;
+        }
+        h2{
+            font-size: 56px;
+            font-family: "DM Sans";
+        }
+        p{
+            font-size: 16px;
+            width: 370px;
+            margin: 38px 0px;
+        }
+        button{
+            width: 170px;
+            height: 48px;
+            background-color:#0076FF;
+            color: white;
+            border: 0px;
+            font-size: 16px;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="bluebox"></div>
+    <div class="outsidebox">
+        <div class="img"></div>
+        <div class="rightbox">
+            <h2>Get better <br>
+                service now</h2>
+            <p>Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam ornatus nam ei.</p>
+            <button>Explore</button>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+</body>
+</html>
