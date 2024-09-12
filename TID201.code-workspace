@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TID201",
+		"editor.fontSize": 20
+	}
+}

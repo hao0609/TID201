@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box Practice</title>
+    <style>
+        body{
+            box-sizing: border-box;
+        }
+        body,h2,p{
+            margin: 0;
+            padding: 0;
+        }
+        .outsidebox{
+            width: 1440px;
+            height: 288px;
+            margin: auto;
+        }
+        .img{
+            width: 170px;
+            height: 128px;
+            background-color: #EEEEEE;
+        }
+        .flexbox{
+            width: 1070px;
+            height: 128px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .box{
+            width: 470px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .font{
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="outsidebox">
+        <div class="flexbox">
+            <div class="box">
+                <div class="img"></div>
+                <div class="font">
+                <h2>Quality</h2>
+                <p>Quidam officiis similique sea ei, vel tollit indoctum efficiendi nihil tantas platonem eos. </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img"></div>
+                <div class="font">
+                <h2>Helpful</h2>
+                <p>Deseruisse definitionem his et, an has veri integre abhorreant, nam alii epicurei et. </p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
