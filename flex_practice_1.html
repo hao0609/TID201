@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box Practice -1</title>
+    <style>
+        body{
+            box-sizing: border-box;
+        }
+        body,h5,h4,p{
+            margin: 0;
+            padding: 0;
+        }
+        h5{
+            
+            font-family: DM Sans;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+        h4{
+           
+            font-family: DM Sans;
+            font-size: 24px;
+            line-height: 32px;
+
+        }
+        p{
+           
+            font-family: DM Sans;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+        .outsidebox{
+            width: 1440px;
+            height: 384px;
+            margin: auto;
+            display: flex;
+
+        }
+        .img{
+            width: 270px;
+            height: 224px;
+            background-color: #EEEEEE;
+        }
+        .flexbox{
+            width: 1170px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .box{
+            width: 538px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .font{
+            width: 238px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .box-right{
+            flex-direction: row-reverse;
+
+        }
+        .font-right{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="outsidebox">
+        <div class="flexbox">
+            <div class="box">
+                <div class="img"></div>
+                <div class="font">
+                <h5>Previous</h5>
+                <h4>Design freedom</h4>
+                <p>Vix habeo scaevola percipitur ne, qui noster abhorreant.</p>
+                </div>
+            </div>
+            <div class="box box-right">
+                <div class="img"></div>
+                <div class="font font-right">
+                <h5>Next</h5>
+                <h4>Bring the future</h4>
+                <p>Percipitur noster abhorreant ne, mea in dicant eligendi evertitur. </p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
